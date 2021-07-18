@@ -1,0 +1,69 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .top-wrapper h1{
+      font-size: 32px;
+    }
+    .lesson-wrapper h2{
+      font-size: 20px;
+    }
+    .edu{
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  }
+  
+  /* For Smartphones */
+  @media all and (max-width: 670px) {
+    .menu-icon{
+      display: block;
+    }
+   
+    .top-wrapper{
+      flex-direction: column;
+      padding: 50px;
+    }
+
+    .top-wrapper h1{
+      font-size: 24px;
+      line-height: 36px;
+      text-align: left;
+      
+    }
+
+    .top-wrapper h2{
+      font-size: 19px;
+      line-height: 28px;
+      text-align: left;
+    }
+
+    .top-wrapper p{
+      font-size: 14px;
+      line-height: 20px;
+      text-align: left;
+    }
+    .edu{
+      width: 100%;
+    }
+
+    .message-wrapper{
+      padding: 0;
+    }
+
+    footer{
+      text-align: center;
+    }
+
+    .footer-distributed .footer-left, .footer-distributed .footer-right {
+      text-align: center;
+    }
+    .footer-distributed .footer-right {
+      float: none;
+      margin: 0 auto 20px;
+    }
+    .footer-distributed .footer-left p.footer-links {
+      line-height: 1.8;
+    
+    }
+
+  }
+

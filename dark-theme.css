@@ -1,0 +1,9 @@
+/* Dark mode */
+body.dark {
+    background: #000;
+    color: #fff;
+}
+
+body.dark .top-wrapper {
+  color: #fff;
+}

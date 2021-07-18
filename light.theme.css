@@ -1,0 +1,9 @@
+/* Light mode */
+body {
+    background: #fff;
+    color: #000;
+}
+
+body.dark .top-wrapper {
+    color: #5f5d60;
+}

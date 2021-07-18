@@ -1,0 +1,245 @@
+  
+  body {
+    font-family: "Lucida Grande";
+    background-color : #F9F9F9;
+  }
+  
+  .container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(15, 59, 26, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+    left: 0;
+  }
+
+  .header-left {
+    float: left;
+    margin-right: -25px;
+  }
+  
+  .header-left a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-left a:hover {
+    background-color: rgba(26, 199, 49, 0.404);
+  }
+
+  .header-left ul{
+    margin: 0;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .header-left li{
+    list-style: none;
+    float: left;
+    color: #eee;
+  }
+  
+  .top-wrapper {
+    padding: 210px;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    display: flex;
+    
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper h2 {
+    opacity: 0.7;
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: 20px;
+  }
+  
+  .logo-fe{
+    width: 50%;
+    position: relative;
+    animation: mymove 2s infinite;
+    animation-direction: alternate-reverse;
+    
+  }
+
+  #logo1 {animation-timing-function: linear;}
+  
+  @keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+  }
+
+  .logo-fe img{
+      width: 250px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+  }
+
+  .profile-container{
+      width: 50%;     
+  }
+
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #443e47;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .edu {
+    float: left;
+    width: 25%;
+  }
+  
+  .edu-icon {
+    position: relative;
+  }
+
+  .edu-icon img{
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  
+  .edu-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+  }
+    
+  .edu-wrapper {
+    padding: 100px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  
+  input, textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  .message-wrapper textarea{
+    height: 100px;
+    max-width: 100%;
+  }
+
+  .contact-submit{
+    background-color: rgba(15, 59, 26, 0.9);
+    color: #00973f;
+  }
+
+  .message-wrapper {
+    padding: 300px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 100px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  
+  
+  
+  .footer-distributed {
+    background-color: #000000;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: normal 16px sans-serif;
+    padding: 45px 50px;
+  }
+  
+  .footer-distributed .footer-left p {
+    color: #8f9296;
+    font-size: 14px;
+    margin: 0;
+  }
+  /* Footer links */
+  
+  .footer-distributed p.footer-links {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed p.footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    transition: ease .25s;
+  }
+  
+  .footer-distributed .footer-links a:before {
+    content: "·";
+    font-size: 20px;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+    padding-right: 5px;
+  }
+  
+  .footer-distributed .footer-links .link-1:before {
+    content: none;
+  }
+  
+  
+  .footer-distributed p.footer-links a:hover{text-decoration:underline;}
